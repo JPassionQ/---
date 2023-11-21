@@ -12,7 +12,7 @@
 
 **急切学习**：在训练阶段就对样本进行学习处理的方法
 
-<img src="D:\研究生\研0\machine_learning_notebook\.assets\image-20231121201147626.png" alt="image-20231121201147626" style="zoom:50%;" />
+<img src=".assets/image-20231121215248860.png" alt="image-20231121215248860" style="zoom: 50%;" />
 
 **最近邻分类器（1NN）**在二分类问题上的性能：
 
@@ -30,11 +30,11 @@ $$
 
 **为什么能降维：**在很多时候，人们观测或收集到的数据样本虽是高维的，但与学习任务密切相关的也许仅是某个低维分布，即高维空间中的一个低维**嵌入**
 
-<img src="D:\研究生\研0\machine_learning_notebook\.assets\image-20231121203033955.png" alt="image-20231121203033955" style="zoom: 50%;" />
+<img src=".assets/image-20231121215318955.png" alt="image-20231121215318955" style="zoom:50%;" />
 
 一种经典的降维方法：**多维缩放**，要求原始空间中样本之间的距离在低维空间中得以保持
 
-<img src="D:\研究生\研0\machine_learning_notebook\.assets\image-20231121211350974.png" alt="image-20231121211350974" style="zoom:50%;" />
+<img src=".assets/image-20231121215347455.png" alt="image-20231121215347455" style="zoom:50%;" />
 
 一般来说，欲获得低维子空间，最简单的是对原始高维空间进行线性变换，给定d维空间中的样本$\mathbf{X}=(x_1,x_2,...,x_m)\in \R^{d\times m}$，变换之后得到$d^{'}\le d$维空间中的样本：
 $$
@@ -53,11 +53,11 @@ $$
 * 最近重构性：样本点到这个超平面的距离都足够近
 * 最大可分性：样本点在这个超平面上的投影能尽可能分开
 
-<img src="D:\研究生\研0\machine_learning_notebook\.assets\image-20231121213834071.png" alt="image-20231121213834071" style="zoom:50%;" />
+<img src=".assets/image-20231121215404846.png" alt="image-20231121215404846" style="zoom:50%;" />
 
 PCA算法描述：
 
-<img src="D:\研究生\研0\machine_learning_notebook\.assets\image-20231121213849496.png" alt="image-20231121213849496" style="zoom: 67%;" />
+<img src=".assets/image-20231121215420603.png" alt="image-20231121215420603" style="zoom:67%;" />
 
 ### 核化线性降维
 
