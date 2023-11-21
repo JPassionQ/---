@@ -170,7 +170,7 @@ $$
 纵坐标：TPR=\cfrac{TP}{TP+FN}=查准率\\
 横坐标：FRP=\cfrac{FP}{TN+FP}真实情况为反例的情况下预测错误的比例
 $$
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231020145038889.png" alt="image-20231020145038889" style="zoom:50%;" />
+<img src=".assets/image-20231020145038889.png" alt="image-20231020145038889" style="zoom:50%;" />
 
 **绘制图(b)：**给定$m^+$个正例和$m^-$个反例，根据学习器预测结果对样例进行排序，然后把分类阈值设为最大，即把所有样例均预测为反例，此时TPR和FPR均为0，在坐标（0，0）处标记一个点。然后将分类阈值依次设为每个样例的预测值，即依次将每个样例划分为正例。设前一个标记点的坐标为(x，y)，当前若为真正例，则对应标记点的坐标为$(x,y+\cfrac{1}{m^+})$
 
@@ -216,7 +216,7 @@ $FNR=1-TPR$是假反例率，在代价平面上绘制一条从$(0,FPR)到(1, FNR
 
 **此处公式理解存疑**
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231020154332320.png" alt="image-20231020154332320" style="zoom: 33%;" />
+<img src=".assets/image-20231020154332320.png" alt="image-20231020154332320" style="zoom: 33%;" />
 
 ### 比较检验
 

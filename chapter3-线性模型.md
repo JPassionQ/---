@@ -98,7 +98,7 @@ $$
 
 上式实际上是在求取输入空间到输出空间的非线性函数映射，如图所示，这里的对数函数起到了将线性回归模型的预测值与真实标记联系起来的作用：
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231102212149530.png" alt="image-20231102212149530" style="zoom:33%;" />
+<img src=".assets/image-20231102212149530.png" alt="image-20231102212149530" style="zoom:33%;" />
 
 更一般地，考虑单调可微函数$g(·)$，令：
 $$
@@ -124,7 +124,7 @@ y=\left \{
 $$
 如图所示为**单位阶跃函数与对数几率函数**
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231103130335660.png" alt="image-20231103130335660" style="zoom: 50%;" />
+<img src=".assets/image-20231103130335660.png" alt="image-20231103130335660" style="zoom: 50%;" />
 
 由于单位阶跃函数不连续，因此我们用单调可微的**对数几率函数**（logistic function）来代替：
 $$

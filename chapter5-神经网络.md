@@ -9,7 +9,7 @@
 * 神经元接收到的总输入值将于神经元的阈值进行比较
 * 通过**激活函数**处理以产生神经元的输出
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110140758236.png" alt="image-20231110140758236" style="zoom: 50%;" />
+<img src=".assets/image-20231110140758236.png" alt="image-20231110140758236" style="zoom: 50%;" />
 
 #### 激活函数
 
@@ -19,7 +19,7 @@
 
 **sigmoid函数**：把可能在较大范围内变化的输入值挤压到（0，1）输出值范围内
 
-![image-20231110141300011](C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110141300011.png)
+![image-20231110141300011](.assets/image-20231110141300011.png)
 
 ### 感知机与多层网络
 
@@ -30,7 +30,7 @@
 * 输出层使M-P神经元：**阈值逻辑单元**
 * 能实现与、或、非运算
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110141658583.png" alt="image-20231110141658583" style="zoom: 25%;" />
+<img src=".assets/image-20231110141658583.png" alt="image-20231110141658583" style="zoom: 25%;" />
 
 阈值和权重的学习可统一为权重的学习：
 $$
@@ -47,15 +47,15 @@ $$
 * 输入层神经元仅是接收输入，不进行函数处理
 * 隐层与输出层包含功能神经元
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110150507501.png" alt="image-20231110150507501" style="zoom:33%;" />
+<img src=".assets/image-20231110150507501.png" alt="image-20231110150507501" style="zoom:33%;" />
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110150523091.png" alt="image-20231110150523091" style="zoom:33%;" />
+<img src=".assets/image-20231110150523091.png" alt="image-20231110150523091" style="zoom:33%;" />
 
 ### 误差逆传播
 
 **BP网络**一般是指用BP算法训练的多层前馈神经网络
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110150840876.png" alt="image-20231110150840876" style="zoom:33%;" />
+<img src=".assets/image-20231110150840876.png" alt="image-20231110150840876" style="zoom:33%;" />
 
 基本原理：求导链式法则、反向传播、均方误差
 
@@ -66,7 +66,7 @@ $$
 
 ### 全局最小与局部极小
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110151159125.png" alt="image-20231110151159125" style="zoom:33%;" />
+<img src=".assets/image-20231110151159125.png" alt="image-20231110151159125" style="zoom:33%;" />
 
 如何跳出局部极小？（启发式，可解释性不足）
 

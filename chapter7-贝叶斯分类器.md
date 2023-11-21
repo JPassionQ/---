@@ -80,7 +80,7 @@ $$
 
 一个贝叶斯网由结构G和参数$\Theta$两部分构成，即$B=<G,\Theta>$
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231117121114089.png" alt="image-20231117121114089" style="zoom: 33%;" />
+<img src=".assets/image-20231117121114089.png" alt="image-20231117121114089" style="zoom: 33%;" />
 
 ### EM算法
 

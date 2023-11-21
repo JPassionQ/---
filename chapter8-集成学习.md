@@ -6,7 +6,7 @@
 
 一般结构：先产生一组**个体学习器**，再用某种策略将他们结合起来
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231117142658374.png" alt="image-20231117142658374" style="zoom:33%;" align="left"/>
+<img src=".assets/image-20231117142658374.png" alt="image-20231117142658374" style="zoom:33%;" align="left"/>
 
 集成学习通过将多个学习器进行结合，常可获得比单一学习器显著优于的泛化性能
 
@@ -41,7 +41,7 @@ Boosting是一族可将弱学习器提升为强学习器的算法
 
 **AdaBoost算法**
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231117145605823.png" alt="image-20231117145605823" style="zoom: 50%;" />
+<img src=".assets/image-20231117145605823.png" alt="image-20231117145605823" style="zoom: 50%;" />
 
 ### Bagging与随机森林
 
@@ -55,7 +55,7 @@ Boosting是一族可将弱学习器提升为强学习器的算法
 
 使用自主采样法，采样出T个含m个训练样本的采样集，然后基于每个采样集训练出一个基学习器，再将这些基学习器进行结合；在对预测输出进行结合时，Bagging通常对分类任务使用简单投票法，对回归任务使用简单平均法。
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231117153041929.png" alt="image-20231117153041929" style="zoom:33%;" />
+<img src=".assets/image-20231117153041929.png" alt="image-20231117153041929" style="zoom:33%;" />
 
 #### 随机森林
 
@@ -93,7 +93,7 @@ $$
 
 Stacking算法：
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231117155817770.png" alt="image-20231117155817770" style="zoom:33%;" />
+<img src=".assets/image-20231117155817770.png" alt="image-20231117155817770" style="zoom:33%;" />
 
 ### 多样性
 
@@ -152,3 +152,4 @@ a表示$h_i和h_j$均预测为正类的样本数目，a+b+c+d=m
 * 输入属性扰动
 * 输出表示扰动
 * 算法参数扰动
+

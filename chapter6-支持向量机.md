@@ -4,7 +4,7 @@
 
 分类学习最基本的想法是基于训练集D在样本空间中找到一个**划分超平面**
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110151930348.png" alt="image-20231110151930348" style="zoom:33%;" />
+<img src=".assets/image-20231110151930348.png" alt="image-20231110151930348" style="zoom:33%;" />
 
 如何划分最合适？应该去找位于两类样本**正中间**的划分超平面
 
@@ -35,7 +35,7 @@ $$
 $$
 它被称为**间隔**.
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110153705582.png" alt="image-20231110153705582" style="zoom:33%;" />
+<img src=".assets/image-20231110153705582.png" alt="image-20231110153705582" style="zoom:33%;" />
 
 欲找到**最大间隔**的划分超平面，也就是要找到能满足式（1）中约束的参数$\boldsymbol{\omega}$和b，使得$\gamma$最大，即：
 $$
@@ -73,7 +73,7 @@ $$
 
 常用的核函数：
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110155613522.png" alt="image-20231110155613522" style="zoom:50%;" />
+<img src=".assets/image-20231110155613522.png" alt="image-20231110155613522" style="zoom:50%;" />
 
 ### 软间隔与正则化
 
@@ -81,7 +81,7 @@ $$
 
 缓解该问题的方法就是允许支持向量机在一些样本上出错
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110155918558.png" alt="image-20231110155918558" style="zoom:33%;" />
+<img src=".assets/image-20231110155918558.png" alt="image-20231110155918558" style="zoom:33%;" />
 
 软间隔允许某些样本不满足下面这个约束：
 $$
@@ -93,7 +93,7 @@ $$
 * 指数损失：$\ell_{z}=e^{-z}$
 * 对率损失：$\ell(z)=\log(1+e^{-z})$
 
-<img src="C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110161521260.png" alt="image-20231110161521260" style="zoom:33%;" />
+<img src=".assets/image-20231110161521260.png" alt="image-20231110161521260" style="zoom:33%;" />
 
 ### 支持向量回归
 

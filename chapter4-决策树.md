@@ -14,7 +14,7 @@
 
 **递归建树、分而治之**
 
-![image-20231110131508941](C:\Users\86156\AppData\Roaming\Typora\typora-user-images\image-20231110131508941.png)
+![image-20231110131508941](.assets/image-20231110131508941.png)
 
 ### 划分选择
 
