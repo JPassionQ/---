@@ -170,4 +170,4 @@ $$
 
 平均距离由两个簇的所有样本共同决定——均链接
 
-<img src=".assets/image-20231121151525746.png" alt="image-20231121151525746" style="zoom: 67%;" />
+<img src=".assets/image-20231121151525746-17006686511181.png" alt="image-20231121151525746" style="zoom: 67%;" />
